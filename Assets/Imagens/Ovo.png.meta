@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 2d7fa206f71008646af0c60dbff6495a
+guid: 87983df58a0daaa49a15dcbf1d00c7eb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6927825636023362364
-    second: "Ma\xE7\xE3_0"
+      213: 6543999877140341329
+    second: Ovo_0
+  - first:
+      213: 5985470130577106748
+    second: Ovo_1
+  - first:
+      213: -5827291008317047812
+    second: Ovo_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +119,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Ma\xE7\xE3_0"
+      name: Ovo_0
       rect:
         serializedVersion: 2
         x: 11
@@ -128,8 +134,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4cc9bfa0a4b6bdf90800000000000000
-      internalID: -6927825636023362364
+      spriteID: 15266277735f0da50800000000000000
+      internalID: 6543999877140341329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ovo_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 622
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3762c21f59a01350800000000000000
+      internalID: 5985470130577106748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ovo_2
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 200
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb3f66c3bd412fa0800000000000000
+      internalID: -5827291008317047812
       vertices: []
       indices: 
       edges: []
@@ -148,7 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Ma\xE7\xE3_0": -6927825636023362364
+      Ovo_0: 6543999877140341329
+      Ovo_1: 5985470130577106748
+      Ovo_2: -5827291008317047812
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
