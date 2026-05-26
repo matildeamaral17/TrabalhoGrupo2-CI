@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8228c85a7d763ee49a9fb2cbf8563cbb
+guid: 90471aaeac82b884ebb8076b13ae860e
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Kids Magazine
+  - Poppins
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
