@@ -116,10 +116,10 @@ TextureImporter:
       name: laticinios_0
       rect:
         serializedVersion: 2
-        x: 143
-        y: 8
-        width: 863
-        height: 1011
+        x: 9
+        y: 21
+        width: 554
+        height: 399
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

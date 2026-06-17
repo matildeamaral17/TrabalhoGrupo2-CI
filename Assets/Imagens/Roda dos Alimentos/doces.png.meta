@@ -116,10 +116,10 @@ TextureImporter:
       name: doces_0
       rect:
         serializedVersion: 2
-        x: 148
-        y: 57
-        width: 708
-        height: 632
+        x: 6
+        y: 9
+        width: 591
+        height: 387
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
