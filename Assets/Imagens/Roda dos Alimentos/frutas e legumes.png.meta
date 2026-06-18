@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 88cbf91de5ffe5e489a30aa7f3480fa4
+guid: 22d79b759d6a74d4ebbf39c9bd0409a1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1414819382204320510
-    second: fruta e legumes_0
+      213: 8126466517703734498
+    second: frutas e legumes_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fruta e legumes_0
+      name: frutas e legumes_0
       rect:
         serializedVersion: 2
-        x: 143
-        y: 88
-        width: 712
-        height: 595
+        x: 4
+        y: 4
+        width: 480
+        height: 490
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: efa40a96bb272a310800000000000000
-      internalID: 1414819382204320510
+      spriteID: 2e436d2fd3207c070800000000000000
+      internalID: 8126466517703734498
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      fruta e legumes_0: 1414819382204320510
+      frutas e legumes_0: 8126466517703734498
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
