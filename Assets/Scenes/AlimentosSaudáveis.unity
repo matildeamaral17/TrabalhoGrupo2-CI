@@ -1415,8 +1415,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "ALIMENTOS SAUD\xC1VEIS "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8de78acf05aa11449b0b03694c21937a, type: 2}
-  m_sharedMaterial: {fileID: -3990051960553126923, guid: 8de78acf05aa11449b0b03694c21937a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1a0ea8629a84d1847aaa64222481c7c0, type: 2}
+  m_sharedMaterial: {fileID: 7335573039444290441, guid: 1a0ea8629a84d1847aaa64222481c7c0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
