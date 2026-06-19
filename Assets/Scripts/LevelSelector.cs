@@ -15,4 +15,8 @@ public class LevelSelector : MonoBehaviour
     {
         SceneManager.LoadScene("RodadosAlimentosJogo" + _selectedLevel);
     }
+    public static int GetSelectedLevel()
+{
+    return _selectedLevel;
+}
 }
