@@ -316,6 +316,7 @@ RectTransform:
   - {fileID: 767326305}
   - {fileID: 1003236422}
   - {fileID: 1781683}
+  - {fileID: 569449070}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -323,6 +324,11 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &478689120 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4578722957991224705, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
+  m_PrefabInstance: {fileID: 1105552115}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -428,6 +434,55 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &569449069
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 569449070}
+  - component: {fileID: 569449071}
+  m_Layer: 5
+  m_Name: ChangeScene
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &569449070
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569449069}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 352045954}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &569449071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569449069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e564f191a7fc884caa00031275ba1f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChangeScene
+  sceneName: 
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -886,6 +941,34 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 425.8
       objectReference: {fileID: 0}
+    - target: {fileID: 1672933290922467133, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672933290922467133, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672933290922467133, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1105552117}
+    - target: {fileID: 1672933290922467133, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672933290922467133, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeSceneAction
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672933290922467133, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ChangeScene, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672933290922467133, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1717445878954150573, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
       propertyPath: m_Name
       value: "SubT\xEDtulo"
@@ -984,6 +1067,10 @@ PrefabInstance:
       value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 6503323862548646205, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 6503323862548646205, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
       propertyPath: m_fontStyle
       value: 1
       objectReference: {fileID: 0}
@@ -1003,6 +1090,10 @@ PrefabInstance:
       propertyPath: m_fontSizeBase
       value: 35
       objectReference: {fileID: 0}
+    - target: {fileID: 6503323862548646205, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 6503323862548646205, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4278190080
@@ -1030,13 +1121,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4578722957991224705, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1105552117}
   m_SourcePrefab: {fileID: 100100000, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
 --- !u!224 &1105552116 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 984088170970822959, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
   m_PrefabInstance: {fileID: 1105552115}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1105552117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478689120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e564f191a7fc884caa00031275ba1f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChangeScene
+  sceneName: RodadosAlimentos
 --- !u!1 &1391797203
 GameObject:
   m_ObjectHideFlags: 0
@@ -1297,6 +1404,10 @@ PrefabInstance:
       value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 6503323862548646205, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 6503323862548646205, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
       propertyPath: m_fontColor.b
       value: 0
       objectReference: {fileID: 0}
@@ -1312,6 +1423,10 @@ PrefabInstance:
       propertyPath: m_fontSizeBase
       value: 35
       objectReference: {fileID: 0}
+    - target: {fileID: 6503323862548646205, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 6503323862548646205, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4278190080
@@ -1630,7 +1745,7 @@ PrefabInstance:
     - target: {fileID: 6503323862548646205, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 2f47556a0f8f19c4788c4548256e8367, type: 2}
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 6503323862548646205, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
       propertyPath: m_fontColor.b
       value: 0
@@ -1650,7 +1765,7 @@ PrefabInstance:
     - target: {fileID: 6503323862548646205, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 5182248369836977733, guid: 2f47556a0f8f19c4788c4548256e8367, type: 2}
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 6503323862548646205, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4278190080
