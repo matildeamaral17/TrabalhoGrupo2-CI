@@ -217,6 +217,63 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &126183229
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 126183232}
+  - component: {fileID: 126183231}
+  - component: {fileID: 126183230}
+  m_Layer: 0
+  m_Name: "Navega\xE7\xE3o"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &126183230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126183229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c437dd44dabac849bd71d4891f5e5fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MudarCena
+--- !u!114 &126183231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126183229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c30202552989ff143814ac972326aa51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: "Assembly-CSharp::SceneNavega\xE7\xE3o"
+--- !u!4 &126183232
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126183229}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1558.6252, y: 466.53275, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &352045950
 GameObject:
   m_ObjectHideFlags: 0
@@ -1318,6 +1375,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 448.81
       objectReference: {fileID: 0}
+    - target: {fileID: 1672933290922467133, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672933290922467133, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672933290922467133, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 126183229}
+    - target: {fileID: 1672933290922467133, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1717445878954150573, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
       propertyPath: m_Name
       value: "SubT\xEDtulo"
@@ -1454,13 +1527,88 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4812440064424112304, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1491325245}
   m_SourcePrefab: {fileID: 100100000, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
 --- !u!224 &1491325242 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 984088170970822959, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
   m_PrefabInstance: {fileID: 1491325241}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1491325243 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4812440064424112304, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
+  m_PrefabInstance: {fileID: 1491325241}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1491325244 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2459705293930088006, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
+  m_PrefabInstance: {fileID: 1491325241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491325243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+--- !u!114 &1491325245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491325243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1491325244}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 126183230}
+        m_TargetAssemblyTypeName: MudarCena, Assembly-CSharp
+        m_MethodName: IrParaCena
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: "P\xE1ginaPrincipalJogo 3"
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1551367329
 GameObject:
   m_ObjectHideFlags: 0
@@ -1807,3 +1955,4 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 352045954}
   - {fileID: 1551367332}
+  - {fileID: 126183232}

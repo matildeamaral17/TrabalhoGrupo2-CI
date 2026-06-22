@@ -318,6 +318,34 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1994107076934118742, guid: 84550cebf1a1f384b8a63693ffc835c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994107076934118742, guid: 84550cebf1a1f384b8a63693ffc835c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994107076934118742, guid: 84550cebf1a1f384b8a63693ffc835c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 911744142698683508}
+    - target: {fileID: 1994107076934118742, guid: 84550cebf1a1f384b8a63693ffc835c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994107076934118742, guid: 84550cebf1a1f384b8a63693ffc835c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GoToMainMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994107076934118742, guid: 84550cebf1a1f384b8a63693ffc835c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GoToMenu, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994107076934118742, guid: 84550cebf1a1f384b8a63693ffc835c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2339542147474693621, guid: 84550cebf1a1f384b8a63693ffc835c7, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -446,13 +474,86 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5840414488363168387, guid: 84550cebf1a1f384b8a63693ffc835c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5840414488363168387, guid: 84550cebf1a1f384b8a63693ffc835c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5840414488363168387, guid: 84550cebf1a1f384b8a63693ffc835c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 911744142698683510}
+    - target: {fileID: 5840414488363168387, guid: 84550cebf1a1f384b8a63693ffc835c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5840414488363168387, guid: 84550cebf1a1f384b8a63693ffc835c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeSceneAction
+      objectReference: {fileID: 0}
+    - target: {fileID: 5840414488363168387, guid: 84550cebf1a1f384b8a63693ffc835c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ChangeScene, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5840414488363168387, guid: 84550cebf1a1f384b8a63693ffc835c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: MenuJogar 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5840414488363168387, guid: 84550cebf1a1f384b8a63693ffc835c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 117527827021215262, guid: 84550cebf1a1f384b8a63693ffc835c7, type: 3}
     - {fileID: 4112291693455238370, guid: 84550cebf1a1f384b8a63693ffc835c7, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1573820249509259951, guid: 84550cebf1a1f384b8a63693ffc835c7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 911744142698683508}
+    - targetCorrespondingSourceObject: {fileID: 7564324864353991965, guid: 84550cebf1a1f384b8a63693ffc835c7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 911744142698683510}
   m_SourcePrefab: {fileID: 100100000, guid: 84550cebf1a1f384b8a63693ffc835c7, type: 3}
+--- !u!1 &911744142698683507 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1573820249509259951, guid: 84550cebf1a1f384b8a63693ffc835c7, type: 3}
+  m_PrefabInstance: {fileID: 911744142698683506}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &911744142698683508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911744142698683507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6245f5a9df81624bbcdadb21f036422, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GoToMenu
+--- !u!1 &911744142698683509 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7564324864353991965, guid: 84550cebf1a1f384b8a63693ffc835c7, type: 3}
+  m_PrefabInstance: {fileID: 911744142698683506}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &911744142698683510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911744142698683509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e564f191a7fc884caa00031275ba1f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChangeScene
+  sceneName: 'MenuJogar 1 '
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
