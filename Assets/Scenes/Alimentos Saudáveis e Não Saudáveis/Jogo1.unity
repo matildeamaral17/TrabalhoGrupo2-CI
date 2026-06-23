@@ -398,7 +398,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6446689171157780657, guid: 84550cebf1a1f384b8a63693ffc835c7, type: 3}
       propertyPath: tipoAlimento
-      value: "Alimentos  Saud\xE1veis"
+      value: "Alimentos Saud\xE1veis"
       objectReference: {fileID: 0}
     - target: {fileID: 8442078538167966803, guid: 84550cebf1a1f384b8a63693ffc835c7, type: 3}
       propertyPath: gameManagerJogo
