@@ -179,9 +179,9 @@ MonoBehaviour:
   m_text: "- Este jogo consiste num Quiz Tem\xE1tico, com diversas perguntas sobre
     o tema abordado anteriormente.\n- Tem 3 n\xEDveis: F\xE1cil, M\xE9dio, D\xEDficil.
     A cada n\xEDvel vai aumentando a quantidade de perguntas e a sua dificuldade.\n-
-    A cada pergunta respondida de forma errada vai aparecer uma nota a dizer \"ERRADA\",
-    quando acertar vai aparecer uma nota a dizer \"ACERTO\"\n- Clica no bot\xE3o
-    \"JOGAR\" para dar in\xEDcio ao jogo."
+    A cada pergunta respondida de forma errada vai aparecer um som de \"ERRADO\",
+    quando acertar vai aparecer um som de \"CORRETO\"\n- Clica no bot\xE3o \"JOGAR\"
+    para dar in\xEDcio ao jogo."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
