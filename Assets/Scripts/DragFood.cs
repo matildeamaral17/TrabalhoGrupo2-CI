@@ -3,66 +3,52 @@ using UnityEngine.EventSystems;
 
 public class DragFood : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
-    public string tipoAlimento; // Saudavel ou NaoSaudavel
+    public string tipoAlimento;
 
-    private RectTransform rectTransform;
+    private Transform parentInicial;
+    private Vector3 posicaoInicial;
     private CanvasGroup canvasGroup;
-    private Vector2 posicaoInicial;
-    private Transform paiInicial;
-    private bool colocadoCorretamente = false;
-
-    void Awake()
-    {
-        rectTransform = GetComponent<RectTransform>();
-        canvasGroup = GetComponent<CanvasGroup>();
-
-        if (canvasGroup == null)
-        {
-            canvasGroup = gameObject.AddComponent<CanvasGroup>();
-        }
-    }
+    private Canvas canvas;
 
     void Start()
     {
-        posicaoInicial = rectTransform.anchoredPosition;
-        paiInicial = transform.parent;
+        canvasGroup = GetComponent<CanvasGroup>();
+        parentInicial = transform.parent;
+        posicaoInicial = transform.position;
+        canvas = GetComponentInParent<Canvas>();
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        if (colocadoCorretamente) return;
+        parentInicial = transform.parent;
+        posicaoInicial = transform.position;
+
+        transform.SetParent(canvas.transform);
+        transform.SetAsLastSibling();
 
         canvasGroup.blocksRaycasts = false;
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        if (colocadoCorretamente) return;
-
-        rectTransform.anchoredPosition += eventData.delta;
+        transform.position = Input.mousePosition;
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        if (colocadoCorretamente) return;
-
         canvasGroup.blocksRaycasts = true;
-
-        VoltarInicio();
-    }
-
-    public void ColocarCorretamente(Transform caixa)
-    {
-        colocadoCorretamente = true;
-        canvasGroup.blocksRaycasts = true;
-
-        transform.SetParent(caixa);
-        rectTransform.anchoredPosition = Vector2.zero;
     }
 
     public void VoltarInicio()
     {
-        transform.SetParent(paiInicial);
-        rectTransform.anchoredPosition = posicaoInicial;
+        transform.SetParent(parentInicial);
+        transform.position = posicaoInicial;
+        transform.SetAsLastSibling();
+    }
+
+    public void ColocarCorretamente(Transform novoPai)
+    {
+        transform.SetParent(novoPai);
+        transform.SetAsLastSibling();
     }
 }
