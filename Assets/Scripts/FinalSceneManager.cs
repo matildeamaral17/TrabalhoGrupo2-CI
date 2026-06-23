@@ -11,6 +11,6 @@ public class FinalSceneManager : MonoBehaviour
 
     public void Sair()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("2 MainMenu");
     }
 }

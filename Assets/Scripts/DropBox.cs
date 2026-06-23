@@ -1,15 +1,14 @@
+
 using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class DropBox : MonoBehaviour, IDropHandler
 {
-    public string tipoAceite; // Saudavel ou NaoSaudavel
+    public string tipoAceite; // Alimentos Saudáveis ou Alimentos Não Saudáveis
 
     public AudioSource audioSource;
     public AudioClip somCerto;
     public AudioClip somErrado;
-
-    public GameManagerJogo gameManagerJogo;
 
     public void OnDrop(PointerEventData eventData)
     {
@@ -42,9 +41,6 @@ public class DropBox : MonoBehaviour, IDropHandler
 
             if (audioSource != null && somCerto != null)
                 audioSource.PlayOneShot(somCerto);
-
-            if (gameManagerJogo != null)
-                gameManagerJogo.ContarAlimentoCerto();
 
             Debug.Log("Correto!");
         }
