@@ -116,10 +116,10 @@ TextureImporter:
       name: oleos_0
       rect:
         serializedVersion: 2
-        x: 143
-        y: 8
-        width: 863
-        height: 1011
+        x: 15
+        y: 5
+        width: 482
+        height: 484
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

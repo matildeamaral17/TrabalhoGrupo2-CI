@@ -5,9 +5,6 @@ TextureImporter:
   - first:
       213: -7345854887068899866
     second: REPETIR_0
-  - first:
-      213: -6754104999988478871
-    second: REPETIR_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -119,10 +116,10 @@ TextureImporter:
       name: REPETIR_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1526
-        height: 1024
+        x: 128
+        y: 146
+        width: 356
+        height: 126
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,28 +130,6 @@ TextureImporter:
       bones: []
       spriteID: 6e5e0b476e74e0a90800000000000000
       internalID: -7345854887068899866
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: REPETIR_1
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 327
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 96c3ffb89499442a0800000000000000
-      internalID: -6754104999988478871
       vertices: []
       indices: 
       edges: []
@@ -174,7 +149,6 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       REPETIR_0: -7345854887068899866
-      REPETIR_1: -6754104999988478871
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

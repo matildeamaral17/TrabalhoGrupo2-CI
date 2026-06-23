@@ -5,6 +5,10 @@ public class DropBox : MonoBehaviour, IDropHandler
 {
     public string tipoAceite; // Saudavel ou NaoSaudavel
 
+    public AudioSource audioSource;
+    public AudioClip somCerto;
+    public AudioClip somErrado;
+
     public void OnDrop(PointerEventData eventData)
     {
         GameObject objetoArrastado = eventData.pointerDrag;
@@ -34,11 +38,18 @@ public class DropBox : MonoBehaviour, IDropHandler
 
             rt.anchoredPosition = new Vector2(x, y);
 
+            if (audioSource != null && somCerto != null)
+                audioSource.PlayOneShot(somCerto);
+
             Debug.Log("Correto!");
         }
         else
         {
             alimento.VoltarInicio();
+
+            if (audioSource != null && somErrado != null)
+                audioSource.PlayOneShot(somErrado);
+
             Debug.Log("Errado!");
         }
     }
