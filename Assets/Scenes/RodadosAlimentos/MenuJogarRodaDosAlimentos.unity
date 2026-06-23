@@ -143,16 +143,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 527572636}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6195626673055338733}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 960, y: 540}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &527572638
@@ -164,9 +164,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 527572636}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6dec497bb7d20646a5877fcc60d06a6, type: 3}
+  m_Script: {fileID: 11500000, guid: ef494324937f55c42bd60e01197beba5, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LevelSelector
+  m_EditorClassIdentifier: Assembly-CSharp::LevelSelector1
 --- !u!1 &925255413
 GameObject:
   m_ObjectHideFlags: 0
@@ -307,7 +307,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 527572638}
-        m_TargetAssemblyTypeName: LevelSelector, Assembly-CSharp
+        m_TargetAssemblyTypeName: LevelSelector1, Assembly-CSharp
         m_MethodName: Play
         m_Mode: 1
         m_Arguments:
@@ -335,7 +335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e564f191a7fc884caa00031275ba1f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChangeScene
-  sceneName: RodadosAlimentos
+  sceneName: "P\xE1ginaPrincipalJogo 3"
 --- !u!1 &1622339131
 GameObject:
   m_ObjectHideFlags: 0
@@ -602,10 +602,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 5706666300546461369, guid: 42f769ea5557d684c8d39674cba3957d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 527572637}
+    m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 19561484822969848, guid: 42f769ea5557d684c8d39674cba3957d, type: 3}
       insertIndex: -1
@@ -623,11 +620,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 6195626673055338740}
   m_SourcePrefab: {fileID: 100100000, guid: 42f769ea5557d684c8d39674cba3957d, type: 3}
---- !u!224 &6195626673055338733 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 5706666300546461369, guid: 42f769ea5557d684c8d39674cba3957d, type: 3}
-  m_PrefabInstance: {fileID: 6195626673055338732}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &6195626673055338734 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9046792843836904436, guid: 42f769ea5557d684c8d39674cba3957d, type: 3}
@@ -721,13 +713,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 527572638}
-        m_TargetAssemblyTypeName: LevelSelector, Assembly-CSharp
+        m_TargetAssemblyTypeName: LevelSelector1, Assembly-CSharp
         m_MethodName: SelectLevel
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -777,13 +769,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 527572638}
-        m_TargetAssemblyTypeName: LevelSelector, Assembly-CSharp
+        m_TargetAssemblyTypeName: LevelSelector1, Assembly-CSharp
         m_MethodName: SelectLevel
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -833,13 +825,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 527572638}
-        m_TargetAssemblyTypeName: LevelSelector, Assembly-CSharp
+        m_TargetAssemblyTypeName: LevelSelector1, Assembly-CSharp
         m_MethodName: SelectLevel
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -851,3 +843,4 @@ SceneRoots:
   - {fileID: 1622339134}
   - {fileID: 6195626673055338732}
   - {fileID: 925255416}
+  - {fileID: 527572637}

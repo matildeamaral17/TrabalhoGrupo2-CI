@@ -5,17 +5,18 @@ public class FinalSceneManager : MonoBehaviour
 {
     public void Repetir()
     {
-        SceneManager.LoadScene("RodadosAlimentosJogo" + GetUltimoNivel());
+        int nivel = LevelSelector1.GetSelectedLevel();
+
+        if (nivel == 1)
+            SceneManager.LoadScene("Jogo0");
+        else if (nivel == 2)
+            SceneManager.LoadScene("Jogo1");
+        else if (nivel == 3)
+            SceneManager.LoadScene("Jogo2");
     }
 
     public void Sair()
     {
         SceneManager.LoadScene("MainMenu");
-    }
-
-    private int GetUltimoNivel()
-    {
-        // Vamos buscar o nível que foi jogado, guardado no LevelSelector
-        return LevelSelector.GetSelectedLevel();
     }
 }

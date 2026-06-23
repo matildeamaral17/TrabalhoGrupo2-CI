@@ -129,6 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 650351391}
   - component: {fileID: 650351392}
+  - component: {fileID: 650351393}
   m_Layer: 5
   m_Name: GameObject
   m_TagString: Untagged
@@ -156,6 +157,18 @@ RectTransform:
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &650351392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650351390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7974ff1fdfae3c74591432e35eb59fde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FinalSceneManager1
+--- !u!114 &650351393
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -341,7 +354,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 650351392}
+      - m_Target: {fileID: 650351393}
         m_TargetAssemblyTypeName: FinalSceneManager, Assembly-CSharp
         m_MethodName: Sair
         m_Mode: 1
@@ -350,7 +363,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: MainMenu
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1141378306
@@ -473,7 +486,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 650351392}
+      - m_Target: {fileID: 650351393}
         m_TargetAssemblyTypeName: FinalSceneManager, Assembly-CSharp
         m_MethodName: Repetir
         m_Mode: 1
@@ -482,7 +495,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Jogo
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1271749703

@@ -40,7 +40,7 @@ EditorBuildSettings:
     path: "Assets/Scenes/Alimentos Saud\xE1veis e N\xE3o Saud\xE1veis/MenuJogar 1.unity"
     guid: 3be8dc0379b0e214fb8818a23065fca9
   - enabled: 1
-    path: "Assets/Scenes/Alimentos Saud\xE1veis e N\xE3o Saud\xE1veis/Jogo-F\xE1cil.unity"
+    path: "Assets/Scenes/Alimentos Saud\xE1veis e N\xE3o Saud\xE1veis/Jogo0.unity"
     guid: d847b1a7b4167ef47bd531a1a46f4b0b
   - enabled: 1
     path: "Assets/Scenes/Alimentos Saud\xE1veis e N\xE3o Saud\xE1veis/AlimentosN\xE3oSaud\xE1veis.unity"
@@ -52,10 +52,10 @@ EditorBuildSettings:
     path: "Assets/Scenes/Alimentos Saud\xE1veis e N\xE3o Saud\xE1veis/Finalscene.unity"
     guid: e2edfc1064730bd49841a8f7cd58b6e3
   - enabled: 1
-    path: "Assets/Scenes/Alimentos Saud\xE1veis e N\xE3o Saud\xE1veis/Jogo-Dificil.unity"
+    path: "Assets/Scenes/Alimentos Saud\xE1veis e N\xE3o Saud\xE1veis/Jogo2.unity"
     guid: ecad4abffae45314394de7b6bc34d1c6
   - enabled: 1
-    path: "Assets/Scenes/Alimentos Saud\xE1veis e N\xE3o Saud\xE1veis/Jogo-M\xE9dio.unity"
+    path: "Assets/Scenes/Alimentos Saud\xE1veis e N\xE3o Saud\xE1veis/Jogo1.unity"
     guid: c777abe24ec784a409a233b4a44dbf27
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

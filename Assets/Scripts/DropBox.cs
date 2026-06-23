@@ -9,6 +9,8 @@ public class DropBox : MonoBehaviour, IDropHandler
     public AudioClip somCerto;
     public AudioClip somErrado;
 
+    public GameManagerJogo gameManagerJogo;
+
     public void OnDrop(PointerEventData eventData)
     {
         GameObject objetoArrastado = eventData.pointerDrag;
@@ -40,6 +42,9 @@ public class DropBox : MonoBehaviour, IDropHandler
 
             if (audioSource != null && somCerto != null)
                 audioSource.PlayOneShot(somCerto);
+
+            if (gameManagerJogo != null)
+                gameManagerJogo.ContarAlimentoCerto();
 
             Debug.Log("Correto!");
         }

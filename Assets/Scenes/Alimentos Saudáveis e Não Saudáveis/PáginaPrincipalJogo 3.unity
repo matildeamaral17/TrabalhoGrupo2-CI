@@ -414,7 +414,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6503323862548646205, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
       propertyPath: m_text
-      value: "Alimentos Saud\xE1veis"
+      value: "Alimentos N\xE3o Saud\xE1veis"
       objectReference: {fileID: 0}
     - target: {fileID: 6503323862548646205, guid: 8ec30d52df87d514f969567a7c8fe55b, type: 3}
       propertyPath: m_fontSize

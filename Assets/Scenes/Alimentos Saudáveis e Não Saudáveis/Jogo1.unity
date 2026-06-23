@@ -119,6 +119,51 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &747295574
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 747295576}
+  - component: {fileID: 747295575}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &747295575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 747295574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6794c5963c46b3047be50d9e61a9a285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManagerJogo
+  totalAlimentos: 8
+--- !u!4 &747295576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 747295574}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 772.22174, y: 469.84485, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1476451075
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -173,8 +218,12 @@ PrefabInstance:
       objectReference: {fileID: -6530002066590001070, guid: 8098cd78358c26947811692cd99fd7d9, type: 3}
     - target: {fileID: 2688720688372142341, guid: 84550cebf1a1f384b8a63693ffc835c7, type: 3}
       propertyPath: m_Name
-      value: "Nivel f\xE1cil-jogo3"
+      value: Jogo3
       objectReference: {fileID: 0}
+    - target: {fileID: 2874327359672883234, guid: 84550cebf1a1f384b8a63693ffc835c7, type: 3}
+      propertyPath: gameManagerJogo
+      value: 
+      objectReference: {fileID: 747295575}
     - target: {fileID: 3148784729933885077, guid: 84550cebf1a1f384b8a63693ffc835c7, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -351,6 +400,10 @@ PrefabInstance:
       propertyPath: tipoAlimento
       value: "Alimentos  Saud\xE1veis"
       objectReference: {fileID: 0}
+    - target: {fileID: 8442078538167966803, guid: 84550cebf1a1f384b8a63693ffc835c7, type: 3}
+      propertyPath: gameManagerJogo
+      value: 
+      objectReference: {fileID: 747295575}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -575,3 +628,4 @@ SceneRoots:
   - {fileID: 1738317181}
   - {fileID: 1476451075}
   - {fileID: 1948547362}
+  - {fileID: 747295576}
