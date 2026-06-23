@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/FrutaseLegumes/2 MainMenu.unity
     guid: 3e93f234d9b490e40a91f1eb4ec7f47c
   - enabled: 1
-    path: Assets/Scenes/FrutaseLegumes/MenuJogarQuiz.unity
+    path: Assets/Scenes/MenuJogarQuiz.unity
     guid: b0419c9988d807644900e7e2f9fcb734
   - enabled: 1
     path: Assets/Scenes/FrutaseLegumes/Quiz0-Pergunta2.unity
@@ -28,7 +28,7 @@ EditorBuildSettings:
     guid: 8e2b8a76708524041a45d83a7376ef34
   - enabled: 1
     path: Assets/Scenes/RodadosAlimentos/RodadosAlimentosJogo2.unity
-    guid: 3ebcd2dc1438fb244bcbeda095dd1f98
+    guid: 03e22992b1471634b8d587b9220e8211
   - enabled: 1
     path: Assets/Scenes/RodadosAlimentos/RodadosAlimentosJogo1.unity
     guid: 0e9274c54925a54449732e0eeae66739
@@ -37,6 +37,9 @@ EditorBuildSettings:
       3.unity"
     guid: 374729ef4d27f1342962cde1939306a0
   - enabled: 1
+    path: Assets/Scenes/FrutaseLegumes/Quiz0-Pergunta3.unity
+    guid: d5ee3165b1cc4864481c0fb82ad81919
+  - enabled: 0
     path: "Assets/Scenes/Alimentos Saud\xE1veis e N\xE3o Saud\xE1veis/MenuJogar 1.unity"
     guid: 3be8dc0379b0e214fb8818a23065fca9
   - enabled: 1
