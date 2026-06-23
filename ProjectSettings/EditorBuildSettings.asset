@@ -12,11 +12,68 @@ EditorBuildSettings:
     path: Assets/Scenes/2 MainMenu.unity
     guid: 3e93f234d9b490e40a91f1eb4ec7f47c
   - enabled: 1
-    path: Assets/Scenes/FrutaseLegumes/MenuJogarQuiz.unity
+    path: Assets/Scenes/MenuJogarQuiz.unity
     guid: b0419c9988d807644900e7e2f9fcb734
   - enabled: 1
     path: Assets/Scenes/FrutaseLegumes/Quiz0-Pergunta2.unity
     guid: ae8587f84ef2cf3478a35891f49cacd7
+  - enabled: 1
+    path: Assets/Scenes/FrutaseLegumes/Quiz0-Pergunta3.unity
+    guid: d5ee3165b1cc4864481c0fb82ad81919
+  - enabled: 1
+    path: Assets/Scenes/FrutaseLegumes/Quiz0-Pergunta4.unity
+    guid: 7cd963eb1f76573489715b14acf19d7d
+  - enabled: 1
+    path: Assets/Scenes/FrutaseLegumes/Quiz1-Pergunta1.unity
+    guid: dbf98f4f437bbe244918844966ebeac6
+  - enabled: 1
+    path: Assets/Scenes/FrutaseLegumes/Quiz1-Pergunta2.unity
+    guid: b425360424a0c9b4b9630c06088b9d60
+  - enabled: 1
+    path: Assets/Scenes/FrutaseLegumes/Quiz1-Pergunta3.unity
+    guid: 91aebe53e2351f44b9560315e780bfab
+  - enabled: 1
+    path: Assets/Scenes/FrutaseLegumes/Quiz1-Pergunta4.unity
+    guid: 7cac4aeee6f017046b17668a5be1976a
+  - enabled: 1
+    path: Assets/Scenes/FrutaseLegumes/Quiz1-Pergunta5.unity
+    guid: a663d596613f4634bb0731fb03d97e7a
+  - enabled: 1
+    path: Assets/Scenes/FrutaseLegumes/Quiz1-Pergunta6.unity
+    guid: b85c692642ae6874d96b8d57cc1a3dea
+  - enabled: 1
+    path: Assets/Scenes/FrutaseLegumes/Quiz1-Pergunta7.unity
+    guid: e5071599e38a1d64d860d86c987aadac
+  - enabled: 1
+    path: Assets/Scenes/FrutaseLegumes/Quiz2-Pergunta1.unity
+    guid: 634eb8f5e151ab3428a24f8d2dd3ff6b
+  - enabled: 1
+    path: Assets/Scenes/FrutaseLegumes/Quiz2-Pergunta2.unity
+    guid: 2e95b75a5dc58b0438566cb74f41f669
+  - enabled: 1
+    path: Assets/Scenes/FrutaseLegumes/Quiz2-Pergunta3.unity
+    guid: 167d14494fc35c94fa3401a753651819
+  - enabled: 1
+    path: Assets/Scenes/FrutaseLegumes/Quiz2-Pergunta4.unity
+    guid: 44b73a9b07073134e9250681ea347964
+  - enabled: 1
+    path: Assets/Scenes/FrutaseLegumes/Quiz2-Pergunta5.unity
+    guid: fc604a9c84b449349ac7f4f3326a97d3
+  - enabled: 1
+    path: Assets/Scenes/FrutaseLegumes/Quiz2-Pergunta6.unity
+    guid: ecb362f656baa2d41afd21c5f4299c81
+  - enabled: 1
+    path: Assets/Scenes/FrutaseLegumes/Quiz2-Pergunta7.unity
+    guid: 553bd59300530c548aaddde88a339fa0
+  - enabled: 1
+    path: Assets/Scenes/FrutaseLegumes/Quiz2-Pergunta8.unity
+    guid: 3ff7a079fda08ae49bf3f61ec015048f
+  - enabled: 1
+    path: Assets/Scenes/FrutaseLegumes/Quiz2-Pergunta9.unity
+    guid: 7fd6b0d4ab2aa41429038507ad3390d9
+  - enabled: 1
+    path: Assets/Scenes/FrutaseLegumes/Quiz2-Pergunta10.unity
+    guid: c88e7bbc967a4ea4193c2fb1cb67354d
   - enabled: 1
     path: Assets/Scenes/RodadosAlimentos/RodadosAlimentos.unity
     guid: a5d8f7be092ec254cbd6f6c6a089dfc3
@@ -36,7 +93,7 @@ EditorBuildSettings:
     path: "Assets/Scenes/Alimentos Saud\xE1veis e N\xE3o Saud\xE1veis/P\xE1ginaPrincipalJogo
       3.unity"
     guid: 374729ef4d27f1342962cde1939306a0
-  - enabled: 1
+  - enabled: 0
     path: "Assets/Scenes/Alimentos Saud\xE1veis e N\xE3o Saud\xE1veis/MenuJogar 1.unity"
     guid: 3be8dc0379b0e214fb8818a23065fca9
   - enabled: 1
@@ -60,6 +117,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RodadosAlimentos/MenuJogarRodaDosAlimentos.unity
     guid: 2ebf51b733a2dc7448cd59be2d65f8ac
+  - enabled: 1
+    path: Assets/Scenes/FrutaseLegumes/Quiz0-Pergunta1.unity
+    guid: 22e8c0385892b494782d0543610b9bca
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
