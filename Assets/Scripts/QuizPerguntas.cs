@@ -3,25 +3,20 @@ using UnityEngine.SceneManagement;
 
 public class QuizPerguntas : MonoBehaviour
 {
-    public string proximaCena; // Nome da próxima cena após o nível
-    public GameObject popupFinal; // Arraste o seu painel de Pop-up para cá no Inspector
-    public bool ehUltimaPergunta = false; // Marque esta caixa no Inspector se for a última pergunta
+    public string proximaCena; // Nome da cena para carregar
 
     public void RespostaCorreta()
     {
-        if (ehUltimaPergunta)
+        Debug.Log("Resposta Correta! Avançando para a próxima cena...");
+
+        // Carrega a próxima cena diretamente
+        if (!string.IsNullOrEmpty(proximaCena))
         {
-            // Ativa o Pop-up se for a última pergunta
-            if (popupFinal != null)
-            {
-                popupFinal.SetActive(true);
-            }
-            Debug.Log("Quiz Fácil Finalizado!");
+            SceneManager.LoadScene(proximaCena);
         }
         else
         {
-            // Carrega a próxima cena normalmente
-            SceneManager.LoadScene(proximaCena);
+            Debug.LogWarning("O nome da 'Proxima Cena' não foi definido no Inspector!");
         }
     }
 

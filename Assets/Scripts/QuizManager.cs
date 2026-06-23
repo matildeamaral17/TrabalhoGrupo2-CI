@@ -1,18 +1,23 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class QuizManager : MonoBehaviour
 {
-    public int totalPerguntas;
-    private int perguntasRespondidas = 0;
+    // Esta variável vai guardar a pontuação do jogador entre as cenas
+    public static int pontuacaoTotal = 0;
 
-    public void ResponderPergunta()
+    // Configurações gerais
+    public int totalPerguntasPorNivel = 4;
+
+    void Awake()
     {
-        perguntasRespondidas++;
+        // Garante que este objeto não seja destruído ao mudar de cena
+        // Isso é útil se você quiser que o quiz "lembre" da pontuação
+        DontDestroyOnLoad(gameObject);
+    }
 
-        if (perguntasRespondidas >= totalPerguntas)
-        {
-            SceneManager.LoadScene("FinalQuiz");
-        }
+    public void AdicionarPontos(int pontos)
+    {
+        pontuacaoTotal += pontos;
+        Debug.Log("Pontuação Atual: " + pontuacaoTotal);
     }
 }
