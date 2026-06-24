@@ -1275,6 +1275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e564f191a7fc884caa00031275ba1f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChangeScene
+<<<<<<< HEAD
   sceneName: MainMenu
 --- !u!1 &2070367746
 GameObject:
@@ -1320,6 +1321,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c437dd44dabac849bd71d4891f5e5fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MudarCena
+=======
+  sceneName: 2 MainMenu
+>>>>>>> 709346362d333c0a172cb6f76f1155bdbcbe3256
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

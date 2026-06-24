@@ -5,6 +5,6 @@ public class GoToMenu : MonoBehaviour
 {
     public void GoToMainMenu()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("2 MainMenu");
     }
 }
