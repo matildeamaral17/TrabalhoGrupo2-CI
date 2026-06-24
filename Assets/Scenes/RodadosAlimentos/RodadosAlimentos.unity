@@ -240,16 +240,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 61060869}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: ChangeSceneAction
-        m_Mode: 1
+      - m_Target: {fileID: 587926013}
+        m_TargetAssemblyTypeName: MudarCena, Assembly-CSharp
+        m_MethodName: IrParaCena
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: MenuJogarRodaAlimentos
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &61060869
@@ -365,6 +365,9 @@ RectTransform:
   - {fileID: 1902422404}
   - {fileID: 426881043}
   - {fileID: 61060865}
+  - {fileID: 2070367747}
+  - {fileID: 585194055}
+  - {fileID: 587926012}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -523,6 +526,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 426881042}
   m_CullTransparentMesh: 1
+--- !u!1 &585194054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 585194055}
+  m_Layer: 0
+  m_Name: GameObjectV
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &585194055
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 585194054}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -61.400112, y: -80.05122, z: 0}
+  m_LocalScale: {x: 1.797753, y: 1.797753, z: 1.797753}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 247486868}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &587926011
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 587926012}
+  - component: {fileID: 587926013}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &587926012
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587926011}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 305.79678, y: -101.37673, z: 0}
+  m_LocalScale: {x: 1.3530656, y: 1.3530656, z: 1.3530656}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 247486868}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &587926013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587926011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c437dd44dabac849bd71d4891f5e5fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MudarCena
 --- !u!1 &796795588
 GameObject:
   m_ObjectHideFlags: 0
@@ -990,16 +1068,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1844456147}
-        m_TargetAssemblyTypeName: GoToMenu, Assembly-CSharp
-        m_MethodName: GoToMainMenu
-        m_Mode: 1
+      - m_Target: {fileID: 2070367748}
+        m_TargetAssemblyTypeName: MudarCena, Assembly-CSharp
+        m_MethodName: IrParaCena
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: 2 MainMenu
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1844456145
@@ -1135,16 +1213,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1902422408}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: ChangeSceneAction
-        m_Mode: 1
+      - m_Target: {fileID: 2070367748}
+        m_TargetAssemblyTypeName: MudarCena, Assembly-CSharp
+        m_MethodName: IrParaCena
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: 2 MainMenu
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1902422406
@@ -1197,7 +1275,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e564f191a7fc884caa00031275ba1f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChangeScene
+<<<<<<< HEAD
+  sceneName: MainMenu
+--- !u!1 &2070367746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2070367747}
+  - component: {fileID: 2070367748}
+  m_Layer: 0
+  m_Name: GameObjectC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2070367747
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070367746}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -61.400112, y: -80.05122, z: 0}
+  m_LocalScale: {x: 1.797753, y: 1.797753, z: 1.797753}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 247486868}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2070367748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070367746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c437dd44dabac849bd71d4891f5e5fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MudarCena
+=======
   sceneName: 2 MainMenu
+>>>>>>> 709346362d333c0a172cb6f76f1155bdbcbe3256
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -119,6 +119,50 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &290677854
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 290677855}
+  - component: {fileID: 290677856}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &290677855
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290677854}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 176.7261, y: 20.772331, z: 0}
+  m_LocalScale: {x: 1.3530656, y: 1.3530656, z: 1.3530656}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6195626673055338733}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &290677856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290677854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c437dd44dabac849bd71d4891f5e5fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MudarCena
 --- !u!1 &296845987
 GameObject:
   m_ObjectHideFlags: 0
@@ -153,8 +197,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -37.353, y: -172}
-  m_SizeDelta: {x: 1491.542, y: 235.863}
+  m_AnchoredPosition: {x: -1.0066, y: -124}
+  m_SizeDelta: {x: 1491.542, y: 162.6155}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &296845989
 MonoBehaviour:
@@ -176,12 +220,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "- Este jogo consiste na divis\xE3o de alimentos saud\xE1veis e n\xE3o
-    saud\xE1veis, com 3 n\xEDveis de dif\xEDculdade\n- Tem 3 n\xEDveis: F\xE1cil,
-    M\xE9dio, D\xEDficil. A cada n\xEDvel vai aumentando a quantidade de aliemntos
-    e a sua dificuldade.\n- A cada pergunta respondida de forma errada vai tocar
-    um som de erro e quando acertar vai tocar um som de acerto.\n- Clica no bot\xE3o
-    \"JOGAR\" para dar in\xEDcio ao jogo."
+  m_text: "-Este jogo consiste num Puzzle tem\xE1tico sobre a roda dos alimentos.\n-Tens
+    3 niveis: F\xE1cil, M\xE9dio, Dificil. A cada n\xEDvel vai aumentando a sua dificuldade-\n-Clica
+    no but\xE3o \"JOGAR\" para dar inicio ao jogo."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -261,50 +302,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 296845987}
   m_CullTransparentMesh: 1
---- !u!1 &395659065
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 395659066}
-  - component: {fileID: 395659067}
-  m_Layer: 0
-  m_Name: GameObject1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &395659066
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 395659065}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -542.562, y: -49.49095, z: 0}
-  m_LocalScale: {x: 1.3530656, y: 1.3530656, z: 1.3530656}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6195626673055338733}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &395659067
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 395659065}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c437dd44dabac849bd71d4891f5e5fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MudarCena
 --- !u!1 &820866234
 GameObject:
   m_ObjectHideFlags: 0
@@ -340,8 +337,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 36, y: 30}
-  m_SizeDelta: {x: 1493.555, y: 44.884}
+  m_AnchoredPosition: {x: 15, y: -10.301}
+  m_SizeDelta: {x: 1493.555, y: 95.2417}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &820866236
 MonoBehaviour:
@@ -522,6 +519,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1244114411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1244114412}
+  - component: {fileID: 1244114413}
+  m_Layer: 0
+  m_Name: GameObject1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1244114412
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244114411}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 176.7261, y: 20.772331, z: 0}
+  m_LocalScale: {x: 1.3530656, y: 1.3530656, z: 1.3530656}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6195626673055338733}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1244114413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244114411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c437dd44dabac849bd71d4891f5e5fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MudarCena
 --- !u!1 &1622339131
 GameObject:
   m_ObjectHideFlags: 0
@@ -614,7 +655,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1903730515
+--- !u!1 &2016539562
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -622,8 +663,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1903730516}
-  - component: {fileID: 1903730517}
+  - component: {fileID: 2016539563}
+  - component: {fileID: 2016539564}
   m_Layer: 0
   m_Name: GameObject2
   m_TagString: Untagged
@@ -631,28 +672,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1903730516
+--- !u!4 &2016539563
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1903730515}
+  m_GameObject: {fileID: 2016539562}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -542.562, y: -49.49095, z: 0}
+  m_LocalPosition: {x: 176.7261, y: 20.772331, z: 0}
   m_LocalScale: {x: 1.3530656, y: 1.3530656, z: 1.3530656}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6195626673055338733}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1903730517
+--- !u!114 &2016539564
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1903730515}
+  m_GameObject: {fileID: 2016539562}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0c437dd44dabac849bd71d4891f5e5fb, type: 3}
@@ -724,7 +765,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1266685972870255216, guid: 42f769ea5557d684c8d39674cba3957d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -38.238
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1883106598578338109, guid: 42f769ea5557d684c8d39674cba3957d, type: 3}
       propertyPath: m_fontSize
@@ -773,7 +814,7 @@ PrefabInstance:
     - target: {fileID: 3858968931843699375, guid: 42f769ea5557d684c8d39674cba3957d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 395659067}
+      objectReference: {fileID: 1244114413}
     - target: {fileID: 3858968931843699375, guid: 42f769ea5557d684c8d39674cba3957d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -788,7 +829,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3858968931843699375, guid: 42f769ea5557d684c8d39674cba3957d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: "P\xE1ginaPrincipalJogo 3"
+      value: RodadosAlimentos
       objectReference: {fileID: 0}
     - target: {fileID: 3858968931843699375, guid: 42f769ea5557d684c8d39674cba3957d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -945,7 +986,7 @@ PrefabInstance:
     - target: {fileID: 9163945729148956026, guid: 42f769ea5557d684c8d39674cba3957d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1903730517}
+      objectReference: {fileID: 2016539564}
     - target: {fileID: 9163945729148956026, guid: 42f769ea5557d684c8d39674cba3957d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: IrParaCena
@@ -967,13 +1008,16 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 5706666300546461369, guid: 42f769ea5557d684c8d39674cba3957d, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 1244114412}
+    - targetCorrespondingSourceObject: {fileID: 5706666300546461369, guid: 42f769ea5557d684c8d39674cba3957d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2016539563}
+    - targetCorrespondingSourceObject: {fileID: 5706666300546461369, guid: 42f769ea5557d684c8d39674cba3957d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 290677855}
+    - targetCorrespondingSourceObject: {fileID: 5706666300546461369, guid: 42f769ea5557d684c8d39674cba3957d, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 820866235}
-    - targetCorrespondingSourceObject: {fileID: 5706666300546461369, guid: 42f769ea5557d684c8d39674cba3957d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 395659066}
-    - targetCorrespondingSourceObject: {fileID: 5706666300546461369, guid: 42f769ea5557d684c8d39674cba3957d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1903730516}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 19561484822969848, guid: 42f769ea5557d684c8d39674cba3957d, type: 3}
       insertIndex: -1
@@ -1044,7 +1088,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2115462362}
+      - m_Target: {fileID: 290677856}
         m_TargetAssemblyTypeName: MudarCena, Assembly-CSharp
         m_MethodName: IrParaCena
         m_Mode: 5
@@ -1053,7 +1097,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Jogo0
+          m_StringArgument: RodadosAlimentosJogo0
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1660057539 &9223372036854775807
