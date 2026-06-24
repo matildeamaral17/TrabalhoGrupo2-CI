@@ -639,7 +639,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9163945729148956026, guid: 42f769ea5557d684c8d39674cba3957d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: FrutaseLegumes
+      value: 2 MainMenu
       objectReference: {fileID: 0}
     - target: {fileID: 9163945729148956026, guid: 42f769ea5557d684c8d39674cba3957d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
